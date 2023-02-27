@@ -7,7 +7,9 @@
         justify-content: space-between
     &__logo
         display: flex
-        align-items: center
+        align-items: flex-end
+        justify-content: space-between
+        width: 106px
         text-decoration: none
         &__name
             font-family: 'Playfair Display'
@@ -16,6 +18,11 @@
             line-height: 1rem //16px
             letter-spacing: 0.14em
             color: $navbar-text
+            &__footer
+                color: $white-color
+        &-footer
+            width: 114px
+
     &__links
         list-style-type: none
         display: flex
