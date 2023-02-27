@@ -1,0 +1,67 @@
+.banner
+    position: relative
+    height: 519px
+    background: $bg-bone
+    z-index: -5
+    &__bg-rectangle
+        position: absolute
+        width: 34.26%
+        height: 100%
+        background-color: $bg-bone-darker
+        z-index: -1
+    &__circles
+        position: absolute
+        right: -420px
+    /* &__bg-circle
+        position: absolute
+        width: 365.16px
+        height: 365.16px
+        left: 1565px
+        top: -130px
+        transform: rotate(-148.35deg)
+        transform: rotate(-28.35deg)
+        border: 1px solid transparent
+        border-radius: 50%
+        background-image: linear-gradient($bg-bone, $bg-bone), linear-gradient(#D4B098,#d4b09800)
+        background-origin: border-box
+        background-clip: content-box, border-box
+        &__bigger
+            width: 744.38px
+            height: 744.38px */
+
+        
+    &__wrapper
+        display: flex
+        padding: 52px 0 21px 0
+        position: absolute
+    &__gallery
+        position: absolute
+        left: 177px
+    &__count-wrapper
+        margin-left: 375px
+        left: 455px
+        padding-top: 16px
+        width: 63px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__arrow
+        width:10px
+        height: 10px
+        border-top: 0.5px solid $button-dark_text2_footer_arrow
+        border-left: 0.5px solid $button-dark_text2_footer_arrow
+        transform: rotate(-45deg)
+        pointer-events: none
+        &__left
+            transform: rotate(-225deg)
+    &__count
+        font-family: 'Prata'
+        font-weight: 400
+        font-size: 12px
+        line-height: 16px
+        color: rgba(27, 26, 23, 0.82)
+    &__info
+        margin-top: 88px
+        left: 767px
+        position: absolute
+        width: 383px
